@@ -12,6 +12,7 @@
 		1477C12521897432003A2DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1477C12321897432003A2DB2 /* Main.storyboard */; };
 		1477C12721897434003A2DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1477C12621897434003A2DB2 /* Assets.xcassets */; };
 		1477C12A21897434003A2DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1477C12821897434003A2DB2 /* LaunchScreen.storyboard */; };
+		1477C133218974C6003A2DB2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1477C132218974C6003A2DB2 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1477C12621897434003A2DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1477C12921897434003A2DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1477C12B21897434003A2DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1477C132218974C6003A2DB2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1477C133218974C6003A2DB2 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				1477C11E21897432003A2DB2 /* BusanAirMap */,
 				1477C11D21897432003A2DB2 /* Products */,
+				1477C131218974C6003A2DB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				1477C12B21897434003A2DB2 /* Info.plist */,
 			);
 			path = BusanAirMap;
+			sourceTree = "<group>";
+		};
+		1477C131218974C6003A2DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1477C132218974C6003A2DB2 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
